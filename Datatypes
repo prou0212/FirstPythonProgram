@@ -1,0 +1,26 @@
+#Datatype and assigning variables is Python
+
+#Integer
+myInteger = 3
+#Boolean
+myBoolean = True
+#String
+myString = "Pizza"
+#Float
+myFloatNumber = 9.0
+
+#f means to format
+
+#Printing an Integer to the console
+print(f"My favourite number is {myInteger}")
+
+#Printing a boolean statement to the console
+#Single quotes work the same as double quotes
+print(f'Am I a student at Algonquin College: {myBoolean}')
+
+#{} prints the variable
+#Printing a String to the console
+print(f"I would like to tell you about my favourite food: {myString}")
+
+#Printing a floating point number to the console
+print(f"My favourite decimal number is {myFloatNumber}")
