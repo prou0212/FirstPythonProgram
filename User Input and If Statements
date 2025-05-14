@@ -1,0 +1,16 @@
+# Learning to use user input
+
+firstName = input("Please enter your first name: ")
+lastName = input("Please enter your last name: ")
+#type casting input from string to integer
+age = input("Please enter your age: ")
+age = int(age)
+
+print(f"My name is {firstName} {lastName}")
+print(f"My age is {age}")
+
+if age > 65:
+    print('You are over 65')
+else:
+    print("You are under 65")
+
